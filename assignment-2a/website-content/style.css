@@ -1,0 +1,78 @@
+html, body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+html {
+  font-size: 15px;
+  background-color: #a9a9a9;
+}
+
+body {
+  width: 70%;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  font-family: 'Sonsie One', cursive;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 10px black;
+}
+
+p, li, section{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+nav, footer {
+  background-color: white;
+  padding: 1%;
+}
+
+nav {
+  height: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav li {
+  flex: 1;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+main {
+  background-color: white;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 80%;
+}
+
+section[id="Web Pages"] div {
+  display: flex;
+  flex: 1;
+  padding-top: 1%;
+}
+
+section[id="Web Pages"] div.row-first {
+  border-bottom: 1px solid;
+}
+
+section[id="Web Pages"] em {
+  font-style: normal;
+  font-weight: 900;
+}
