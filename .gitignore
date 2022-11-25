@@ -3,6 +3,4 @@
 /workspace.xml
 # Editor-based HTTP Client requests
 /httpRequests/
-/modules.xml
-/vcs.xml
-/BTU-WebDocs-WS22.iml
+/.idea
