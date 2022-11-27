@@ -1,0 +1,12 @@
+<!ELEMENT services (service+)>
+<!ELEMENT service (service_ID,service_name,service_URL,package_price,search_keywords,service_category,team,team_size,report_publication,redacted_company_name_in_report)>
+<!ELEMENT service_ID (#PCDATA)>
+<!ELEMENT service_name (#PCDATA)>
+<!ELEMENT service_URL (#PCDATA)>
+<!ELEMENT package_price (#PCDATA)>
+<!ELEMENT search_keywords (#PCDATA)>
+<!ELEMENT service_category (#PCDATA)>
+<!ELEMENT team (#PCDATA)>
+<!ELEMENT team_size (#PCDATA)>
+<!ELEMENT report_publication (#PCDATA)>
+<!ELEMENT redacted_company_name_in_report (#PCDATA)>
