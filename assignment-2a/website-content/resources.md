@@ -1,6 +1,20 @@
 # Resouces
 ## Text
 Text for our pages :
+
+[Home](/assignment-2a/website-content/resources.md#home)
+
+[Services](/assignment-2a/website-content/resources.md#services)
+
+[Publications](/assignment-2a/website-content/resources.md#publications)
+
+[Blog](/assignment-2a/website-content/resources.md#blog)
+
+[About Us](/assignment-2a/website-content/resources.md#about-us)
+
+[Domain name](/assignment-2a/website-content/resources.md#domain-name)
+
+[Logo](/assignment-2a/website-content/resources.md#logo)
 ### Home
 ![](data/images/home_1280x852.jpg)
 [by Pixabay](https://www.pexels.com/photo/turned-on-computer-monitor-displaying-text-270360/)
