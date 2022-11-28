@@ -423,7 +423,7 @@ expert in my field and am always up-to-date with the latest trends and technolog
 ## Domain name
 t-800cyber.com
 
-### Logo
+## Logo
 ![](data/LOGO+Name.svg)
 ![](data/LOGO.svg)
 
