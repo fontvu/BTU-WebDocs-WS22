@@ -8,7 +8,7 @@ Repo for WebDocs course in Winter 2022-2023 semester at BTU
 
 ## [Business Requirements](assignment-2a/Business%20Requirements/requirements.md)
 
-## [click to see our website content](/assignment-2a/website-content/resources.md)
+## [Website Content](/assignment-2a/website-content/resources.md)
 
 ## [Images and Logo ](assignment-2a/website-content/data)
 
