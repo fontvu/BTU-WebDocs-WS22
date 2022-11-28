@@ -1,8 +1,5 @@
 # Business Descriptions
 
-> This is a fiction company for Web Documents course at BTU inspired by a real business [Cure53](https://cure53.de/#top) 
-
-
 - Official business name: T-800 Cybersecurity
 
 - Business location: Friedrich-Engels-Straße 15 03046 Cottbus, Deutschland
