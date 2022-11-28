@@ -1,6 +1,14 @@
 # Resouces
-## Text
+## Text & Images
 Text for our pages :
+
+[Home](/assignment-2a/website-content/resources.md#home) |
+[Services](/assignment-2a/website-content/resources.md#services) |
+[Publications](/assignment-2a/website-content/resources.md#publications) |
+[Blog](/assignment-2a/website-content/resources.md#blog) |
+[About Us](/assignment-2a/website-content/resources.md#about-us) |
+[Domain name](/assignment-2a/website-content/resources.md#domain-name) |
+[Logo](/assignment-2a/website-content/resources.md#logo)
 ### Home
 ![](data/images/home_1280x852.jpg)
 [by Pixabay](https://www.pexels.com/photo/turned-on-computer-monitor-displaying-text-270360/)
@@ -364,6 +372,7 @@ web malware analysis and publications. Contact us today to find out more.
 
 
 ### About Us
+#### Company
 Our company was founded 2009. T-800 is a leading provider of web application security services.
 We are dedicated to helping developers make their applications as secure as possible. We offer a range of
 services, including penetration testing, training, consulting, malware analysis, and more.<br>
@@ -423,7 +432,7 @@ expert in my field and am always up-to-date with the latest trends and technolog
 ## Domain name
 t-800cyber.com
 
-### Logo
+## Logo
 ![](data/LOGO+Name.svg)
 ![](data/LOGO.svg)
 
