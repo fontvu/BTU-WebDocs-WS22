@@ -1,5 +1,5 @@
 # Resouces
-## Text
+## Text & Images
 Text for our pages :
 
 [Home](/assignment-2a/website-content/resources.md#home) |
