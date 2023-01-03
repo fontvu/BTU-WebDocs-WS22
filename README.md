@@ -5,6 +5,14 @@ Repo for WebDocs course in Winter 2022-2023 semester at BTU
 * Lin Yu-Chieh [jaylin0114](https://github.com/jaylin0114)
 * Phong Vu [fontvu](https://github.com/fontvu)
 
+## Work distribution for Developers
+- setup of initial page (Github pages) - Masoud
+- responsible for communication to Group 6 (developer) - Mona
+- HTML5 - Masoud
+- CSS - Andreas
+- Visual Clarity - Mona
+- Adaptive page design - Mona
+- Evaluated our Code using an online validator and refactor - Andreas
 
 ## [Business Requirements](assignment-2a/Business%20Requirements/requirements.md)
 
