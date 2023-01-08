@@ -12,31 +12,27 @@
 <body>
 
     <header>
-        <img src="../assignment-2a/website-content/data/LOGO+Name.svg">
-        <form id="form">
-            <input type="search" id="query" name="q" placeholder="Search...">
-            <button>Search</button>
-        </form>
+        <nav class="container">
+            <div class="grid">
+                <img class="item" style="max-width: 20em;" src="../assignment-2a/website-content/data/LOGO+Name.svg">
+                <form id="form" class="item">
+                    <input type="search" id="query" name="q" placeholder="Search...">
+                    <a href="#" class="button">Search</a>
+                </form>
+                <a class="item center" href="home.html">Home</a>
+                <a class="item center" href="services.html">Services</a>
+                <a class="active item center" href="products.html">Products</a>
+                <a class="item center" href="publications.html">Publications</a>
+                <a class="item center" href="blog.html">Blog</a>
+                <a class="item center" href="about_us.html">About Us</a>
+            </div>
+            <div>
+                <a href="index.html">Home</a>
+                >
+                <a href="products.html">Products</a>
+            </div>
+        </nav>
     </header>
-
-    <nav class="container">
-        <div class="grid">
-            <a class="item center" href="home.html">Home</a>
-            <a class="item center" href="services.html">Services</a>
-            <a class="active item center" href="products.html">Products</a>
-            <a class="item center" href="publications.html">Publications</a>
-            <a class="item center" href="blog.html">Blog</a>
-            <a class="item center" href="about_us.html">About Us</a>
-        </div>
-    </nav>
-
-    <section class="breadcrumbs">
-        <div>
-            >
-            <a href="products.html">Products</a>
-            >
-        </div>
-    </section>
 
     <div class="content">
         <h1> Products </h1>
@@ -45,30 +41,40 @@
 
 <section>
     <div class="content center">
-        <h2>Product X</h2>
-        <img class="fullwidth" src="../assignment-2a/website-content/data/images/analysis_400x266.jpg">
-        <p>No text available</p>
-        <a class="button" href="#">Download</a>
+        <aside>
+            <img class="fullwidth" src="../assignment-2a/website-content/data/images/analysis_400x266.jpg">
+        </aside>
+
+        <div class="leftHalf">
+            <h2>Product X</h2>
+            <p>No text available</p>
+            <a class="button" href="#">Download</a>
+        </div>
     </div>
+</section>
 
-
+<section>
     <div class="content center">
-        <h2>Product Y</h2>
-        <img class="fullwidth" src="../assignment-2a/website-content/data/images/security_400x300.jpg">
-        <p>No text available</p>
-        <a class="button" href="#">Download</a>
+        <aside>
+            <img class="fullwidth" src="../assignment-2a/website-content/data/images/security_400x300.jpg">
+        </aside>
+
+        <div class="leftHalf">
+            <h2>Product Y</h2>
+            <p>No text available</p>
+            <a class="button" href="#">Download</a>
+        </div>
     </div>
 </section>
 
 <footer>
     <div class="imglist">
-        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/facebook.png"></a>
-        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/twitter.png"></a>
-        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/linkedin.png"></a>
-        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/whatsapp.png"></a>
-        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/share.png"></a>
-
         <span>@Copyright 2023 by T-800 Cybersecurity. All rights reserved.</span>
+        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/share.png"></a>
+        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/whatsapp.png"></a>
+        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/linkedin.png"></a>
+        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/twitter.png"></a>
+        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/facebook.png"></a>
     </div>
 </footer>
 

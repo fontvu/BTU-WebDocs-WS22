@@ -12,43 +12,64 @@
 <body>
 
     <header>
-        <img src="../assignment-2a/website-content/data/LOGO+Name.svg">
-        <form id="form">
-            <input type="search" id="query" name="q" placeholder="Search...">
-            <button>Search</button>
-        </form>
+        <nav class="container">
+            <div class="grid">
+                <img class="item" style="max-width: 20em;" src="../assignment-2a/website-content/data/LOGO+Name.svg">
+                <form id="form" class="item">
+                    <input type="search" id="query" name="q" placeholder="Search...">
+                    <a href="#" class="button">Search</a>
+                </form>
+                <a class="item center" href="home.html">Home</a>
+                <a class="item center" href="services.html">Services</a>
+                <a class="item center" href="products.html">Products</a>
+                <a class="active item center" href="publications.html">Publications</a>
+                <a class="item center" href="blog.html">Blog</a>
+                <a class="item center" href="about_us.html">About Us</a>
+            </div>
+            <div>
+                <a href="index.html">Home</a>
+                >
+                <a href="publications.html">Publications</a>
+            </div>
+        </nav>
     </header>
 
-    <nav class="container">
-        <div class="grid">
-            <a class="item center" href="home.html">Home</a>
-            <a class="item center" href="services.html">Services</a>
-            <a class="item center" href="products.html">Products</a>
-            <a class="active item center" href="publications.html">Publications</a>
-            <a class="item center" href="blog.html">Blog</a>
-            <a class="item center" href="about_us.html">About Us</a>
-        </div>
-    </nav>
-
-    <section class="breadcrumbs">
-        <div>
-            >
-            <a href="index.html">Home</a>
-            >
-        </div>
-    </section>
 
     <div class="content">
         <h1> Publications </h1>
     </div>
 
 
+    <aside>
+        <div class="content">
+            <ul>
+                <li>Papers</li>
+                <li>
+                    Reports
+                    <ul>
+                        <li><a href="#manufacturing">Manufacturing</a></li>
+                        <li><a href="#finance">Finance and Insurance</a></li>
+                        <li><a href="#healthcare">Healthcare</a></li>
+                        <li><a href="#telecommunications">Telecommunications</a></li>
+                        <li><a href="#retail">Retail (FMCG)</a></li>
+                        <li><a href="#transportation">Transportation</a></li>
+                    </ul>
+                </li>
+                <li>
+                    Presentations
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+
 
     <section>
-        <div class="content">
+        <div class="content leftHalf">
             <h2>Reports</h2>
 
             <div class="card">
+                <span class="anchor" id="manufacturing"></span>
                 <h3>Manufacturing</h3>
                 <p>
                     The term “cyber security” in manufacturing refers to the security of data and information related to the manufacturing process.
@@ -59,7 +80,8 @@
                 <a class="button" href="repo_manufacturing.html">Learn more</a>
             </div>
 
-            <div class="card">
+            <div class="card" >
+                <span class="anchor" id="finance"></span>
                 <h3>Finance and Insurance</h3>
                 <p>
                     The finance and insurance industries are at the forefront of the cyber security landscape. With the increasing number of
@@ -69,6 +91,7 @@
             </div>
 
             <div class="card">
+                <span class="anchor" id="healthcare"></span>
                 <h3>Healthcare</h3>
                 <p>
                     The healthcare industry is under constant attack from cybercriminals. In fact, healthcare data is now the most valuable
@@ -79,7 +102,8 @@
                 <a class="button" href="repo_healthcare.html">Learn more</a></button>
             </div>
 
-            <div class="card">
+            <div class="card" >
+                <span class="anchor" id="telecommunications"></span>
                 <h3>Telecommunications</h3>
                 <p>
                     The ever-growing dependence on telecommunications has made cyber security in this sector increasingly important.
@@ -91,7 +115,8 @@
             </div>
 
 
-            <div class="card">
+            <div class="card" >
+                <span class="anchor" id="retail"></span>
                 <h3>Retail (FMCG)</h3>
                 <p>
                     The world is increasingly digitized, and retail is no exception. E-commerce has been growing rapidly, and even
@@ -102,6 +127,7 @@
             </div>
 
             <div class="card">
+                <span class="anchor" id="transportation"></span>
                 <h3>Transportation</h3>
                 <p>
                     The Department of Transportation (DOT) is responsible for ensuring the safety and security of our nation’s
@@ -125,17 +151,16 @@
         </div> -->
     </section>
 
-<footer>
-    <div class="imglist">
-        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/facebook.png"></a>
-        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/twitter.png"></a>
-        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/linkedin.png"></a>
-        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/whatsapp.png"></a>
-        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/share.png"></a>
-
-        <span>@Copyright 2023 by T-800 Cybersecurity. All rights reserved.</span>
-    </div>
-</footer>
+    <footer>
+        <div class="imglist">
+            <span>@Copyright 2023 by T-800 Cybersecurity. All rights reserved.</span>
+            <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/share.png"></a>
+            <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/whatsapp.png"></a>
+            <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/linkedin.png"></a>
+            <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/twitter.png"></a>
+            <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/facebook.png"></a>
+        </div>
+    </footer>
 
 </body>
 

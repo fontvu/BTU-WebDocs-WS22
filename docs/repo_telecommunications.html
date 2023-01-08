@@ -9,38 +9,37 @@
 </head>
 
 <body>
-
     <header>
-        <img src="../assignment-2a/website-content/data/LOGO+Name.svg">
-        <form id="form">
-            <input type="search" id="query" name="q" placeholder="Search...">
-            <button>Search</button>
-        </form>
+        <nav class="container">
+            <div class="grid">
+                <img class="item" style="max-width: 20em;" src="../assignment-2a/website-content/data/LOGO+Name.svg">
+                <form id="form" class="item">
+                    <input type="search" id="query" name="q" placeholder="Search...">
+                    <a href="#" class="button">Search</a>
+                </form>
+                <a class="item center" href="home.html">Home</a>
+                <a class="item center" href="services.html">Services</a>
+                <a class="item center" href="products.html">Products</a>
+                <a class="active item center" href="publications.html">Publications</a>
+                <a class="item center" href="blog.html">Blog</a>
+                <a class="item center" href="about_us.html">About Us</a>
+            </div>
+            <div>
+                <a href="index.html">Home</a>
+                >
+                <a href="publications.html">Publications</a>
+                >
+                <a href="telecommunications.html">Telecommunications</a>
+            </div>
+        </nav>
     </header>
-
-    <nav class="container">
-        <div class="grid">
-            <a class="item center" href="home.html">Home</a>
-            <a class="item center" href="services.html">Services</a>
-            <a class="item center" href="products.html">Products</a>
-            <a class="active item center" href="publications.html">Publications</a>
-            <a class="item center" href="blog.html">Blog</a>
-            <a class="item center" href="about_us.html">About Us</a>
-        </div>
-    </nav>
-
-    <section class="breadcrumbs">
-        <div>
-            >
-            <a href="publications.html">Publications</a>
-            >
-            <a href="repo_telecommunications">Telecommunications</a>
-        </div>
-    </section>
 
 <section>
     <div class="content">
         <h1>Telecommunications</h1>
+
+        <div class="imagespacer" style="background-image: url('../assignment-2a/website-content/data/images/server_400x266.jpg')"></div>
+
         <p> The ever-growing dependence on telecommunications has made cyber security in this sector increasingly important.
             As our reliance on electronic communications grows, so too does the risk of attack by malicious actors. A successful
             attack on a telecommunications system could have far-reaching and devastating consequences, disrupting critical
@@ -53,12 +52,6 @@
             major US telecommunications provider Verizon, gaining access to over three million customer records. In 2013, hackers
             took control of the systems of South Korean telecoms giant SK telecom, causing widespread disruption to service.
         </p>
-    </div>
-
-    <div class="imagespacer" style="background-image: url('../assignment-2a/website-content/data/images/server_400x266.jpg')"></div>
-
-    <div class="content">
-
         <p>
             The increasing sophistication of cyber attacks is a major cause for concern in the telecommunications sector. As
             hackers become more adept at exploiting vulnerabilities in systems, the risk of a successful attack grows.
@@ -82,15 +75,60 @@
     </div>
 </section>
 
+<section>
+    <div class="content grid">
+        <div class="card item" style="min-height: 50vh">
+            <img src="../assignment-2a/website-content/data/images/server_400x266.jpg">
+            <h3>MANUFACTURING</h3>
+            <div class="spacer"></div>
+            <a href="repo_manufacturing.html" class="button">Download Report</a>
+        </div>
+
+        <div class="card item" style="min-height: 50vh">
+            <img src="../assignment-2a/website-content/data/images/server_400x266.jpg">
+            <h3>FINANCE AND INSURANCE</h3>
+            <div class="spacer"></div>
+            <a href="repo_finance_insurance.html" class="button">Download Report</a>
+        </div>
+
+        <div class="card item" style="min-height: 50vh">
+            <img src="../assignment-2a/website-content/data/images/server_400x266.jpg">
+            <h3>HEALTHCARE</h3>
+            <div class="spacer"></div>
+            <a href="repo_healthcare.html" class="button">Download Report</a>
+        </div>
+
+        <!-- <div class="card item" style="min-height: 50vh">
+            <img src="../assignment-2a/website-content/data/images/server_400x266.jpg">
+            <h3>TELECOMMUNICATIONS</h3>
+            <div class="spacer"></div>
+            <a href="repo_telecommunications.html" class="button">Download Report</a>
+        </div> -->
+
+        <div class="card item" style="min-height: 50vh">
+            <img src="../assignment-2a/website-content/data/images/server_400x266.jpg">
+            <h3>RETAIL (FMCG)</h3>
+            <div class="spacer"></div>
+            <a href="repo_retail.html" class="button">Download Report</a>
+        </div>
+
+        <div class="card item" style="min-height: 50vh">
+            <img src="../assignment-2a/website-content/data/images/server_400x266.jpg">
+            <h3>TRANSPORTATION</h3>
+            <div class="spacer"></div>
+            <a href="repo_transportation.html" class="button">Download Report</a>
+        </div>
+    </div>
+</section>
+
 <footer>
     <div class="imglist">
-        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/facebook.png"></a>
-        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/twitter.png"></a>
-        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/linkedin.png"></a>
-        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/whatsapp.png"></a>
-        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/share.png"></a>
-
         <span>@Copyright 2023 by T-800 Cybersecurity. All rights reserved.</span>
+        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/share.png"></a>
+        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/whatsapp.png"></a>
+        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/linkedin.png"></a>
+        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/twitter.png"></a>
+        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/facebook.png"></a>
     </div>
 </footer>
 
