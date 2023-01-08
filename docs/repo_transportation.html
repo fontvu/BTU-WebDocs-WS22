@@ -11,36 +11,36 @@
 <body>
 
     <header>
-        <img src="../assignment-2a/website-content/data/LOGO+Name.svg">
-        <form id="form">
-            <input type="search" id="query" name="q" placeholder="Search...">
-            <button>Search</button>
-        </form>
+        <nav class="container">
+            <div class="grid">
+                <img class="item" style="max-width: 20em;" src="../assignment-2a/website-content/data/LOGO+Name.svg">
+                <form id="form" class="item">
+                    <input type="search" id="query" name="q" placeholder="Search...">
+                    <a href="#" class="button">Search</a>
+                </form>
+                <a class="item center" href="home.html">Home</a>
+                <a class="item center" href="services.html">Services</a>
+                <a class="item center" href="products.html">Products</a>
+                <a class="active item center" href="publications.html">Publications</a>
+                <a class="item center" href="blog.html">Blog</a>
+                <a class="item center" href="about_us.html">About Us</a>
+            </div>
+            <div>
+                <a href="index.html">Home</a>
+                >
+                <a href="publications.html">Publications</a>
+                >
+                <a href="repo_transportation.html">Transportation</a>
+            </div>
+        </nav>
     </header>
-
-    <nav class="container">
-        <div class="grid">
-            <a class="item center" href="home.html">Home</a>
-            <a class="item center" href="services.html">Services</a>
-            <a class="item center" href="products.html">Products</a>
-            <a class="active item center" href="publications.html">Publications</a>
-            <a class="item center" href="blog.html">Blog</a>
-            <a class="item center" href="about_us.html">About Us</a>
-        </div>
-    </nav>
-
-    <section class="breadcrumbs">
-        <div>
-            >
-            <a href="publications.html">Publications</a>
-            >
-            <a href="repo_transportation">Transportation</a>
-        </div>
-    </section>
 
 <section>
     <div class="content">
         <h1>Transportation</h1>
+
+        <div class="imagespacer" style="background-image: url('../assignment-2a/website-content/data/images/server_400x266.jpg')"></div>
+
         <p> The Department of Transportation (DOT) is responsible for ensuring the safety and security of our
             nation’s transportation systems, which includes airports, seaports, railways, highways, and pipelines. In recent
             years, the DOT has taken significant steps to improve the security of these systems against terrorist threats
@@ -57,11 +57,6 @@
             sector and other government agencies to provide information about cybersecurity threats and to help protect the
             transportation infrastructure.
         </p>
-    </div>
-
-    <div class="imagespacer" style="background-image: url('../assignment-2a/website-content/data/images/server_400x266.jpg')"></div>
-
-    <div class="content">
         <p>
             In addition to these efforts, the DOT is working on a number of other initiatives to improve the
             security of the transportation system against cyber threats. For example, the department is working on standards for the
@@ -77,21 +72,65 @@
             this area will help to ensure that the transportation system can continue to operate safely and securely in the face of
             evolving cyber threats.
         </p>
+
         <a class="button" href="">Download report</a>
     </div>
+</section>
 
+<section>
+    <div class="content grid">
+        <div class="card item" style="min-height: 50vh">
+            <img src="../assignment-2a/website-content/data/images/server_400x266.jpg">
+            <h3>MANUFACTURING</h3>
+            <div class="spacer"></div>
+            <a href="repo_manufacturing.html" class="button">Download Report</a>
+        </div>
 
+        <div class="card item" style="min-height: 50vh">
+            <img src="../assignment-2a/website-content/data/images/server_400x266.jpg">
+            <h3>FINANCE AND INSURANCE</h3>
+            <div class="spacer"></div>
+            <a href="repo_finance_insurance.html" class="button">Download Report</a>
+        </div>
+
+        <div class="card item" style="min-height: 50vh">
+            <img src="../assignment-2a/website-content/data/images/server_400x266.jpg">
+            <h3>HEALTHCARE</h3>
+            <div class="spacer"></div>
+            <a href="repo_healthcare.html" class="button">Download Report</a>
+        </div>
+
+        <div class="card item" style="min-height: 50vh">
+            <img src="../assignment-2a/website-content/data/images/server_400x266.jpg">
+            <h3>TELECOMMUNICATIONS</h3>
+            <div class="spacer"></div>
+            <a href="repo_telecommunications.html" class="button">Download Report</a>
+        </div>
+
+        <div class="card item" style="min-height: 50vh">
+            <img src="../assignment-2a/website-content/data/images/server_400x266.jpg">
+            <h3>RETAIL (FMCG)</h3>
+            <div class="spacer"></div>
+            <a href="repo_retail.html" class="button">Download Report</a>
+        </div>
+
+        <!-- <div class="card item" style="min-height: 50vh">
+            <img src="../assignment-2a/website-content/data/images/server_400x266.jpg">
+            <h3>TRANSPORTATION</h3>
+            <div class="spacer"></div>
+            <a href="repo_transportation.html" class="button">Download Report</a>
+        </div> -->
+    </div>
 </section>
 
 <footer>
     <div class="imglist">
-        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/facebook.png"></a>
-        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/twitter.png"></a>
-        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/linkedin.png"></a>
-        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/whatsapp.png"></a>
-        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/share.png"></a>
-
         <span>@Copyright 2023 by T-800 Cybersecurity. All rights reserved.</span>
+        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/share.png"></a>
+        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/whatsapp.png"></a>
+        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/linkedin.png"></a>
+        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/twitter.png"></a>
+        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/facebook.png"></a>
     </div>
 </footer>
 

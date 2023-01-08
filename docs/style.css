@@ -7,6 +7,8 @@ header {
     padding-bottom: .5em;
     padding-left: 2em;
     padding-right: 2em;
+    position: sticky;
+    top: 0;
 }
 header img {
     max-height: 5em;
@@ -23,6 +25,7 @@ h1 {
     text-align: center;
     /* margin: 0; */
     text-transform: uppercase;
+    width: 100%;
 
     border-bottom: 2px solid black;
     border-left: 2px solid black;
@@ -34,31 +37,59 @@ h2 {
     border-radius: .3em;
     text-align: center;
     font-size: 3.5em;
+    text-transform: uppercase;
 }
 h3 {
     font-size: 2em;
+    text-transform: uppercase;
 }
 p, li {
-    font-size: 1.25em;
+    font-size: 1.25rem;
 }
 ul {
-    margin-bottom: 4em;
+    /* margin-bottom: 4em; */
 }
 
 a {
     text-decoration: none;
     color: #00493a;
-    font-size: 1.25em;
+    font-size: 1.25rem;
+}
+
+.sticky {
+    position: sticky;
+    top: 10em;
+}
+
+.anchor {
+    position: absolute;
+    transform: translateY(-40vh);
 }
 
 aside {
-    width: 40%;
-    padding-left: 0.5rem;
-    margin-left: 0.5rem;
+    /* width: 40%; */
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-left: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+
     float: right;
-    box-shadow: inset 5px 0 5px -5px #29627e;
-    color: #29627e;
+    box-shadow: inset 5px 0 5px -5px #6b0013;
+    color: #6b0013;
+    min-height: 30vh;
 }
+
+.leftHalf {
+    width: 50%;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-left: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    min-height: 30vh;
+}
+
 .button {
     border: 1px solid black;
     padding: .3em .5em .3em .5em;
@@ -78,6 +109,7 @@ aside {
     padding: .5em;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -87,10 +119,43 @@ aside {
 }
 
 .item {
-    width: 8em;
+    /* width: 8em; */
     margin: 10px;
-    border: 1px solid black;
 }
+
+.card.item {
+    max-width: 45%;
+    height: 35vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.memberCard {
+    min-width: 35%;
+    max-width: 40%;
+    min-height: 70vh;
+    border: 2px solid black;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.memberCard.location {
+    min-height: 30vh;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+.card.item h3 {
+    flex-grow: 1;
+}
+
+.grid .iten {
+    border-right: 1px solid black;
+}
+
 .center {
     text-align: center;
 }
@@ -124,6 +189,8 @@ aside {
     display:flex;
     align-items: stretch;
     padding: 1em;
+    max-width: 45vh;
+    min-height: 50vh;
 }
 
 .blogCard p {
@@ -139,6 +206,7 @@ aside {
     background-attachment: fixed;
     color: white;
     vertical-align: baseline;
+    margin-top: 10em;
 }
 .imagespacer h1 {
     background-color: rgba(0,0,0,0.5);
@@ -162,25 +230,31 @@ nav.container, .breadcrumbs {
 }
 
 nav a {
-    text-decoration: none;
-    background-color: #6b0013;
-    color: #fff;
+    text-decoration: underline;
+    border: 0px;
+    color: #00493a;
     padding: .5em;
     text-transform: uppercase;
     transition: .5s;
 }
 
-nav a:hover, nav a.active {
+input {
+    font-size: 1.25em;
+    padding: .25em 0em .25em 0em;
+}
+
+/* nav a:hover, nav a.active {
     background-color: #00493a;
     color: white;
     transition: .5s;
-}
+} */
 
 /* Footer */
 footer {
     background-color: #dddddd;
     bottom: 0;
     padding: .5em;
+    height: 2em;
 
 }
 footer ul {
@@ -202,5 +276,9 @@ footer ul {
 
 .imglist span {
     vertical-align: baseline;
-    float:right;
+    float:left;
+}
+
+.imglist a {
+    float: right;
 }
