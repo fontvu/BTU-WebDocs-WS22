@@ -120,9 +120,6 @@ aside {
     transition: .5s;
 }
 
-.container {
-
-}
 .grid {
     padding: .5em;
     display: flex;
