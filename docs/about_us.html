@@ -5,125 +5,115 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About Us | T-800 Cybersecurity</title>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-    <img src="../assignment-2a/website-content/data/LOGO+Name.svg"> T-800 Cybersecurity
-    <form id="form">
-        <input type="search" id="query" name="q" placeholder="Search...">
-        <button>Search</button>
-    </form>
-    <nav>
-        <li><a href="services.html">Services</a></li>
-        |
-        <li><a href="products.html">Products</a></li>
-        |
-        <li><a href="publications.html">Publications</a></li>
-        |
-        <li><a href="blog.html">Blog</a></li>
-        |
-        <li><a href="about_us.html">About Us</a></li>
-        |
-    </nav>
-    <ul class="breadcrumb">
-        <li><a href="index.html">Home</a></li>
-        >
-        <li><a href="about_us.html">Publications</a></li>
-    </ul>
-</header>
+    <header>
+        <img src="../assignment-2a/website-content/data/LOGO+Name.svg">
+        <form id="form">
+            <input type="search" id="query" name="q" placeholder="Search...">
+            <button>Search</button>
+        </form>
+    </header>
 
-<aside>
-    <ul>
-        <li><a href="">Company</a></li>
-        <li><a href="">Team introduction</a></li>
-        <li><a href="">Contact Us</a></li>
-    </ul>
-</aside>
+    <nav class="container">
+        <div class="grid">
+            <a class="item center" href="home.html">Home</a>
+            <a class="item center" href="services.html">Services</a>
+            <a class="item center" href="products.html">Products</a>
+            <a class="item center" href="publications.html">Publications</a>
+            <a class="item center" href="blog.html">Blog</a>
+            <a class="active item center" href="about_us.html">About Us</a>
+        </div>
+    </nav>
+
+    <section class="breadcrumbs">
+        <div>
+            >
+            <a href="about_us.html">About Us</a>
+        </div>
+    </section>
+
+
+
 <section>
 
-    <div>
+    <div class="content">
+        <h1>About Us</h1>
         <h2>Company</h2>
-        <div>
-
-            <p>Our company was founded 2009. T-800 is a leading provider of web application security services.
-                We are dedicated to helping developers make their applications as secure as possible. We offer a range
-                of
-                services, including penetration testing, training, consulting, malware analysis, and more.<br>
-                We're a team of security experts who are dedicated to helping you make your web application more secure.
-                We've got over 10 years of experience in the field, and we've worked with some of the biggest names in
-                tech.
-                From our headquarters in Berlin, we're ready to help you build a better web application.<br>
-                We know how important it is to keep information safe online—and we want you to be able to do
-                that without having to lose sleep at night or spend all day worrying about hackers getting their
-                hands on your data. That's why we provide peace of mind by putting an end to cyber crime before it can
-                happen!</p>
-
-        </div>
-
+        <p>
+            Our company was founded 2009. T-800 is a leading provider of web application security services.
+            We are dedicated to helping developers make their applications as secure as possible. We offer a range
+            of services, including penetration testing, training, consulting, malware analysis, and more.<br>
+            We're a team of security experts who are dedicated to helping you make your web application more secure.
+            We've got over 10 years of experience in the field, and we've worked with some of the biggest names in
+            tech. From our headquarters in Berlin, we're ready to help you build a better web application.<br>
+            We know how important it is to keep information safe online — and we want you to be able to do
+            that without having to lose sleep at night or spend all day worrying about hackers getting their
+            hands on your data. That's why we provide peace of mind by putting an end to cyber crime before it can
+            happen!
+        </p>
     </div>
 
-    <div>
+    <div class="content">
         <h2>Team</h2>
-        <div>
-            <h3>Left Guy</h3>
-            <img src="../assignment-2a/website-content/data/images/team_400x225.jpg">
-            <hr>
-            <p>I am a cyber security professional and team leader with years of experience in the
-                field. I have a strong background in information technology and have a keen eye for
-                detail. I am passionate about protecting people and businesses from cyber threats and
-                work tirelessly to stay up-to-date on the latest security risks and vulnerabilities. I
-                am also a strong communicator and leader, which has helped me to effectively manage and
-                train teams of security professionals. In my current role, I am responsible for leading
-                a team of security analysts who monitor and respond to security incidents. I am also
-                responsible for developing and implementing security policies and procedures.
-            </p>
+        <img class="fullwidth" src="../assignment-2a/website-content/data/images/team_400x225.jpg">
 
+        <div class="grid">
+            <div class="card center flexCard">
+                <h3>Left Guy</h3>
+                <hr>
+                <p>I am a cyber security professional and team leader with years of experience in the
+                    field. I have a strong background in information technology and have a keen eye for
+                    detail. I am passionate about protecting people and businesses from cyber threats and
+                    work tirelessly to stay up-to-date on the latest security risks and vulnerabilities. I
+                    am also a strong communicator and leader, which has helped me to effectively manage and
+                    train teams of security professionals. In my current role, I am responsible for leading
+                    a team of security analysts who monitor and respond to security incidents. I am also
+                    responsible for developing and implementing security policies and procedures.
+                </p>
+            </div>
+
+            <div class="card center flexCard">
+                <h3>Middle Guy</h3>
+                <hr>
+                <p>I am a cyber security expert and team leader with experience in managing
+                    and developing teams of cyber security professionals. I have a strong technical
+                    background and experience in managing and developing cyber security programs and
+                    teams. I am a motivated and creative thinker with a passion for problem solving and
+                    a commitment to continuous learning. I am a strong communicator and have a proven
+                    track record in developing and delivering presentations and training on cyber security
+                    topics. I am also a certified Project Management Professional (PMP).
+                </p>
+            </div>
+
+            <div class="card center flexCard">
+                <h3>Right Guy</h3>
+                <hr>
+                <p>I am a highly experienced and certified cyber security professional, team leader
+                    and managing director. I have worked in the cyber security field for over 20 years
+                    and have a wealth of knowledge and experience to offer. I am a certified ethical
+                    hacker and have a deep understanding of how to protect systems and networks from
+                    attack. I am a highly skilled communicator and have a proven track record in leading
+                    and motivating teams. I am a strategic thinker and can think outside the box to find
+                    innovative solutions to complex problems. I am a strong leader and have a proven ability
+                    to get the best out of people. I am passionate about cyber security and protecting people
+                    and businesses from online threats. I am a highly motivated individual and thrive in a
+                    fast-paced environment. I am a quick learner and have a keen eye for detail. I am an
+                    expert in my field and am always up-to-date with the latest trends and technologies.
+                </p>
+            </div>
         </div>
-        <div>
-            <h3>Middle Guy</h3>
-            <img src="../assignment-2a/website-content/data/images/team_400x225.jpg">
-            <hr>
-            <p>I am a cyber security expert and team leader with experience in managing
-                and developing teams of cyber security professionals. I have a strong technical
-                background and experience in managing and developing cyber security programs and
-                teams. I am a motivated and creative thinker with a passion for problem solving and
-                a commitment to continuous learning. I am a strong communicator and have a proven
-                track record in developing and delivering presentations and training on cyber security
-                topics. I am also a certified Project Management Professional (PMP).
-            </p>
-
-        </div>
-        <div>
-            <h3>Right Guy</h3>
-            <img src="../assignment-2a/website-content/data/images/team_400x225.jpg">
-            <hr>
-            <p>I am a highly experienced and certified cyber security professional, team leader
-                and managing director. I have worked in the cyber security field for over 20 years
-                and have a wealth of knowledge and experience to offer. I am a certified ethical
-                hacker and have a deep understanding of how to protect systems and networks from
-                attack. I am a highly skilled communicator and have a proven track record in leading
-                and motivating teams. I am a strategic thinker and can think outside the box to find
-                innovative solutions to complex problems. I am a strong leader and have a proven ability
-                to get the best out of people. I am passionate about cyber security and protecting people
-                and businesses from online threats. I am a highly motivated individual and thrive in a
-                fast-paced environment. I am a quick learner and have a keen eye for detail. I am an
-                expert in my field and am always up-to-date with the latest trends and technologies.
-            </p>
-
-        </div>
-
-
     </div>
 
-    <div>
+    <div class="content">
         <h2>Contact Us</h2>
         <div>
-        <p>Business location: Friedrich-Engels-Straße 15 03046 Cottbus, Deutschland</p>
-        <p>Email: mail@t-800cyber.com</p>
-        <p>Phone number: +4917683110797</p>
+        <p><strong>Business location:</strong> Friedrich-Engels-Straße 15 03046 Cottbus, Deutschland</p>
+        <p><strong>Email:</strong><a style="font-size: 1em" href="mailto:mail@t-800cyber.com"> mail@t-800cyber.com</a></p>
+        <p><strong>Phone number:</strong><a style="font-size: 1em" href="tel: +4917683110797"> +4917683110797</a></p>
 
         </div>
 
@@ -133,14 +123,15 @@
 </section>
 
 <footer>
-    <p>@Copyright 2023 by T-800 Cybersecurity. All rights reserved.</p>
-    <ul>
-        <li><a href="#">Facebook</i></a></li>
-        <li><a href="#">Twitter</i></a></li>
-        <li><a href="#">Linkedin</i></a></li>
-        <li><a href="#">Whatsapp</i></a></li>
-        <li><a href="#">Share Button</i></a></li>
-    </ul>
+    <div class="imglist">
+        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/facebook.png"></a>
+        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/twitter.png"></a>
+        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/linkedin.png"></a>
+        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/whatsapp.png"></a>
+        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/share.png"></a>
+
+        <span>@Copyright 2023 by T-800 Cybersecurity. All rights reserved.</span>
+    </div>
 </footer>
 
 </body>

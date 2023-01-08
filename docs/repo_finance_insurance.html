@@ -5,68 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Finance and insurance | T-800 Cybersecurity</title>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-    <img src="../assignment-2a/website-content/data/LOGO+Name.svg"> T-800 Cybersecurity
-    <form id="form">
-        <input type="search" id="query" name="q" placeholder="Search...">
-        <button>Search</button>
-    </form>
-    <nav>
-        <li><a href="services.html">Services</a></li>
-        |
-        <li><a href="products.html">Products</a></li>
-        |
-        <li><a href="publications.html">Publications</a></li>
-        |
-        <li><a href="blog.html">Blog</a></li>
-        |
-        <li><a href="about_us.html">About Us</a></li>
-        |
+    <header>
+        <img src="../assignment-2a/website-content/data/LOGO+Name.svg">
+        <form id="form">
+            <input type="search" id="query" name="q" placeholder="Search...">
+            <button>Search</button>
+        </form>
+    </header>
+
+    <nav class="container">
+        <div class="grid">
+            <a class="item center" href="home.html">Home</a>
+            <a class="item center" href="services.html">Services</a>
+            <a class="item center" href="products.html">Products</a>
+            <a class="active item center" href="publications.html">Publications</a>
+            <a class="item center" href="blog.html">Blog</a>
+            <a class="item center" href="about_us.html">About Us</a>
+        </div>
     </nav>
-    <ul class="breadcrumb">
-        <li><a href="index.html">Home</a></li> >
-        <li><a href="repo_publications.html">Publications</a></li> >
-        <li><a href="">Reports</a></li> >
-        <li><a href="repo_finance_insurance.html">Finance and Insurance</a></li>
-    </ul>
-</header>
+
+    <section class="breadcrumbs">
+        <div>
+            >
+            <a href="publications.html">Publications</a>
+            >
+            <a href="repo_finance_insurance">Finance and Insurance</a>
+        </div>
+    </section>
 
 <section>
-<div>
-  <img src="../assignment-2a/website-content/data/images/server_400x266.jpg">
-            <div>
-    <h3>Finance and insurance</h3>
+    <div class="content">
+        <h1>Finance and insurance</h1>
 
-    <p>The finance and insurance industries are at the forefront of the cyber security landscape. With the increasing number of
-cyber attacks, these industries have been forced to invest heavily in cyber security measures.</p>
+        <p>
+            The finance and insurance industries are at the forefront of the cyber security landscape. With the increasing number of
+            cyber attacks, these industries have been forced to invest heavily in cyber security measures.
+        </p>
 
-<p>
-According to a study by the Ponemon Institute, the average cost of a data breach in the finance and insurance industries is
-$7.91 million. This figure is almost double the global average of $3.86 million. The study also found that the number of cyber
-attacks in these industries has increased by 20% over the past year.</p>
+        <p>
+            According to a study by the Ponemon Institute, the average cost of a data breach in the finance and insurance industries is
+            $7.91 million. This figure is almost double the global average of $3.86 million. The study also found that the number of cyber
+            attacks in these industries has increased by 20% over the past year.
+        </p>
+    </div>
 
-<p>
-There are a number of reasons why the finance and insurance industries are prime targets for cyber criminals. These industries
-hold large amounts of customer data, which is valuable to criminals. They also rely heavily on technology, which can be vulnerable
-to attack.</p>
+        <div class="imagespacer" style="background-image: url('../assignment-2a/website-content/data/images/server_400x266.jpg')"></div>
 
-<p>
-The good news is that the finance and insurance industries are aware of the threat and are taking steps to protect themselves.
-They are investing in cyber security measures, such as data encryption and intrusion detection systems. They are also educating
-their employees about cyber security risks and best practices.
-</p>
+    <div class="content">
+        <p>
+            There are a number of reasons why the finance and insurance industries are prime targets for cyber criminals. These industries
+            hold large amounts of customer data, which is valuable to criminals. They also rely heavily on technology, which can be vulnerable
+            to attack.
+        </p>
 
-<p>
-As the threat of cybercrime continues to grow, the finance and insurance industries will need to stay ahead of the curve
-to protect their customers and their businesses.
-</p>
+        <p>
+            The good news is that the finance and insurance industries are aware of the threat and are taking steps to protect themselves.
+            They are investing in cyber security measures, such as data encryption and intrusion detection systems. They are also educating
+            their employees about cyber security risks and best practices.
+        </p>
 
-    <button><a href="">Download report</a></button>
+        <p>
+            As the threat of cybercrime continues to grow, the finance and insurance industries will need to stay ahead of the curve
+            to protect their customers and their businesses.
+        </p>
+
+        <a class="button" href="">Download report</a>
 
 </div>
 
@@ -76,14 +84,15 @@ to protect their customers and their businesses.
 </section>
 
 <footer>
-    <p>@Copyright 2023 by T-800 Cybersecurity. All rights reserved.</p>
-    <ul>
-        <li><a href="#">Facebook</i></a></li>
-        <li><a href="#">Twitter</i></a></li>
-        <li><a href="#">Linkedin</i></a></li>
-        <li><a href="#">Whatsapp</i></a></li>
-        <li><a href="#">Share Button</i></a></li>
-    </ul>
+    <div class="imglist">
+        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/facebook.png"></a>
+        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/twitter.png"></a>
+        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/linkedin.png"></a>
+        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/whatsapp.png"></a>
+        <a href="#"><img class="icon" src="../assignment-2a/website-content/data/images/share.png"></a>
+
+        <span>@Copyright 2023 by T-800 Cybersecurity. All rights reserved.</span>
+    </div>
 </footer>
 
 </body>
