@@ -42,14 +42,21 @@ h2 {
 h3 {
     font-size: 2em;
     text-transform: uppercase;
+    margin-left: 1em;
+    margin-left: 0.7em;
 }
 
 h4 {
     font-size: 1.5em;
+    margin-left: 1em;
 }
 p, li {
     font-size: 1.28rem;
     margin-top: 0;
+}
+p {
+    margin-left: 1em;
+    margin-right: 1em;
 }
 ul {
     /* margin-bottom: 4em; */
@@ -72,7 +79,7 @@ a {
 }
 
 aside {
-    width: 20%; 
+    width: 20%;
     padding-left: 1.5em;
     padding-right: 1.5em;
     margin-left: 1.5em;
@@ -83,6 +90,12 @@ aside {
     background-color: lightgray;
     border-radius: 1em;
     min-height: 30vh;
+}
+
+aside.asideImage {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -114,7 +127,14 @@ aside {
     background-color: #6b0013;
     color: white;
     transition: .5s;
+    display: inline-flex;
+    max-width: fit-content;
 }
+
+.card a.button {
+    margin-left: 1em;
+}
+
 .button:hover {
     background-color: #00493a;
     transition: .5s;
@@ -144,6 +164,12 @@ aside {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+}
+@media(max-width:1152px) {
+    .card.item {
+        max-width: 80%;
+        background-position:
+    }
 }
 
 .memberCard {
@@ -221,7 +247,7 @@ aside {
     background-attachment: fixed;
     color: white;
     vertical-align: baseline;
-    
+
 }
 .imagespacer h1 {
     background-color: rgba(0,0,0,0.5);
@@ -253,16 +279,39 @@ nav a {
     transition: .5s;
 }
 
+@media(max-width: 1601px) {
+    nav form {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media(max-width: 889px) {
+    nav {
+        position: inherit!important;
+    }
+    header {
+        position: inherit!important;
+    }
+    nav .item {
+        width: 100%;
+        margin: .1em;
+        padding-bottom: .3em;
+    }
+}
+@media(max-width: 481px) {
+    nav .button {
+        width: 100%;
+    }
+}
+
 input {
     font-size: 1.25em;
     padding: .25em 0em .25em 0em;
 }
 
-/* nav a:hover, nav a.active {
-    background-color: #00493a;
-    color: white;
-    transition: .5s;
-} */
+nav a:hover, nav a.active {
+    border: 1px solid black;
+}
 
 /* Footer */
 footer {
