@@ -278,6 +278,9 @@ nav a {
     text-transform: uppercase;
     transition: .5s;
 }
+nav .button {
+    text-decoration: none;
+}
 
 @media(max-width: 1601px) {
     nav form {
@@ -306,7 +309,7 @@ nav a {
 
 input {
     font-size: 1.25em;
-    padding: .25em 0em .25em 0em;
+    padding: 0.5em 0em 0.3em 0em;
 }
 
 nav a:hover, nav a.active {
