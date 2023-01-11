@@ -10,7 +10,7 @@ Repo for WebDocs course in Winter 2022-2023 semester at BTU
 - responsible for communication to Group 6 (developer) - Mona
 - CSS - Andreas, Mona
 - Visual Clarity - Mona
-- Adaptive page design - Mona
+- Adaptive page design - Andreas, Mona
 - Evaluated our Code using an online validator and refactor - Mona
 
 ## [Business Requirements](assignment-2a/Business%20Requirements/requirements.md)
