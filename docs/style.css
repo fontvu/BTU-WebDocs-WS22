@@ -130,7 +130,7 @@ aside.asideImage {
 
 .button {
     border: 1px solid black;
-    padding: .3em .5em .3em .5em;
+    padding: .3em .3em .3em .5em;
     background-color: #6b0013;
     color: white;
     transition: .5s;
@@ -297,10 +297,9 @@ nav a {
     transition: .5s;
 }
 nav .button {
-    text-decoration: none;
-    padding: 0.7em 0.35em 0.35em .35em;
     border-radius: 0 1em 1em 0;
-    font-size: 1.25em;
+    border: none;
+    padding: 0.72em 0.5em 0.5em 0.5em;
 }
 
 input {
@@ -308,8 +307,8 @@ input {
     height: 2.2em;
     margin-bottom: 0;
     border-radius: 1em 0 0 1em;
-    padding-top: 0.2em;
     width: 80%;
+    border: none;
     
 }
 @media(max-width: 1601px) {
