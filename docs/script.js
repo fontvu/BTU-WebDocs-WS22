@@ -26,5 +26,5 @@ function pullData(service) {
             "</td></tr>";
     }
 
-    document.getElementById("demo").innerHTML = table;
+    document.getElementById("xml").innerHTML = table;
 }
