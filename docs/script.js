@@ -19,10 +19,10 @@ function pullData(service) {
     for(let i = 0; i < service.length; i++) {
         table += "<tr><td>" +
             service[i].getElementsByTagName("service_name")
-            [0].childNodes[0].nodeValue +
+            [i].childNodes[i].nodeValue +
             "</td><td>" +
             service[i].getElementsByTagName("package_price")
-            [0].childNodes[0].nodeValue +
+            [i].childNodes[i].nodeValue +
             "</td></tr>";
     }
 
