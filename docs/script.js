@@ -6,10 +6,10 @@ function getData() {
     const xhttp = new XMLHttpRequest();
     xhttp.onload = function() {
         const xmlDoc = xhttp.responseXML;
-        const service = xmlDoc.getElementsByTagName("services");
+        const service = xmlDoc.getElementsByTagName("service");
         pullData(service);
     }
-    xhttp.open("GET", "4c-xml-data-file.xml", true);
+    xhttp.open("GET", "4c-xml-data-file.xml");
     xhttp.send();
 }
 
@@ -19,10 +19,10 @@ function pullData(service) {
     for(let i = 0; i < service.length; i++) {
         table += "<tr><td>" +
             service[i].getElementsByTagName("service_name")
-            [i].childNodes[i].nodeValue +
+            [0].childNodes[0].nodeValue +
             "</td><td>" +
             service[i].getElementsByTagName("package_price")
-            [i].childNodes[i].nodeValue +
+            [0].childNodes[0].nodeValue +
             "</td></tr>";
     }
 
