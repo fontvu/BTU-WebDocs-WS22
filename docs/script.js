@@ -6,7 +6,7 @@ function getData() {
     const xhttp = new XMLHttpRequest();
     xhttp.onload = function() {
         const xmlDoc = xhttp.response.XML;
-        const service = xmlDoc.getElementByTagName("services");
+        const service = xmlDoc.getElementsByTagName("services");
         pullData(service);
     }
     xhttp.open("GET", "4c-xml-data-file.xml", true);
