@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'AcariSansNeueRegular'; 
 }
 header {
     max-height: 50%;
@@ -9,6 +10,7 @@ header {
     padding-right: 2em;
     position: sticky;
     top: 0;
+    font-family: 'AcariSansNeueRegular'; 
 }
 header img {
     max-height: 5em;
@@ -24,6 +26,7 @@ header img {
 
 main {
     min-height: 65vh;
+    font-family: 'AcariSansNeueRegular'; 
 }
 
 header form {
@@ -32,14 +35,6 @@ header form {
     margin-right: 4em;
 }
 
-h1 {
-    font-size: 5em;
-    text-align: center;
-    text-transform: uppercase;
-    width: 100%;
-
-    border-radius: .3em;
-}
 h2 {
     text-align: center;
     font-size: 2.5em;
@@ -47,7 +42,6 @@ h2 {
 
 h3 {
     font-size: 2em;
-    text-transform: uppercase;
     margin-left: 1em;
     margin-left: 0.7em;
 }
@@ -61,6 +55,7 @@ p, li {
     font-size: 1.28rem;
     margin-top: 0;
 }
+
 p {
     margin-left: 1em;
     margin-right: 1em;
@@ -136,7 +131,8 @@ aside.asideImage {
     transition: .5s;
     display: inline-flex;
     max-width: fit-content;
-    border-radius: 1em;
+    border-radius: 0.5em;
+    border: none;
 }
 
 .content .button {
