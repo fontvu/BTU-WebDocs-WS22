@@ -5,7 +5,7 @@ window.addEventListener("load", function() {
 function getData() {
     const xhttp = new XMLHttpRequest();
     xhttp.onload = function() {
-        const xmlDoc = xhttp.response.XML;
+        const xmlDoc = xhttp.responseXML;
         const service = xmlDoc.getElementsByTagName("services");
         pullData(service);
     }
