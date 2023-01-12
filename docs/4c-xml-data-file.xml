@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="services.xsl" type="text/xsl"?>
+<!-- The service URL should be updated accordingly after the domain is available-->
+<!DOCTYPE services SYSTEM "4c-xml-data-file.dtd">
+<services>
+    <service>
+        <service_ID>01</service_ID>
+        <service_name>Penetration Testing</service_name>
+        <service_URL>https://www.domain.com/service/heh-9133</service_URL>
+        <package_price>100</package_price>
+        <search_keywords>penetration,test,testing,black box,white box,code audit,code</search_keywords>
+        <service_category>technical</service_category>
+        <team>pentest</team>
+        <team_size>small</team_size>
+        <report_publication>yes</report_publication>
+        <redacted_company_name_in_report>yes</redacted_company_name_in_report>
+    </service>
+    <service>
+        <service_ID>02</service_ID>
+        <service_name>Security analysis and architectural advice</service_name>
+        <service_URL>https://www.domain.com/service/heh-9133</service_URL>
+        <package_price>150</package_price>
+        <search_keywords>analysis,advice,architecture,security,asessement,maturity</search_keywords>
+        <service_category>professional</service_category>
+        <team>consulting</team>
+        <team_size>small</team_size>
+        <report_publication>yes</report_publication>
+        <redacted_company_name_in_report>yes</redacted_company_name_in_report>
+    </service>
+    <service>
+        <service_ID>03</service_ID>
+        <service_name>Training and consulting</service_name>
+        <service_URL>https://www.domain.com/service/heh-9133</service_URL>
+        <package_price>50</package_price>
+        <search_keywords>training,consulting</search_keywords>
+        <service_category>professional</service_category>
+        <team>consulting</team>
+        <team_size>small</team_size>
+        <report_publication>no</report_publication>
+        <redacted_company_name_in_report>not available</redacted_company_name_in_report>
+    </service>
+    <service>
+        <service_ID>04</service_ID>
+        <service_name>Incident management, web malware analysis</service_name>
+        <service_URL>https://www.domain.com/service/heh-9133</service_URL>
+        <package_price>200</package_price>
+        <search_keywords>incident,problem,malware,analysis</search_keywords>
+        <service_category>technical</service_category>
+        <team>pentest</team>
+        <team_size>medium</team_size>
+        <report_publication>yes</report_publication>
+        <redacted_company_name_in_report>yes</redacted_company_name_in_report>
+    </service>
+</services>

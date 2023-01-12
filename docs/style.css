@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'AcariSansNeueRegular'; 
+    font-family: 'AcariSansNeueRegular';
 }
 header {
     max-height: 50%;
@@ -10,7 +10,7 @@ header {
     padding-right: 2em;
     position: sticky;
     top: 0;
-    font-family: 'AcariSansNeueRegular'; 
+    font-family: 'AcariSansNeueRegular';
 }
 header img {
     max-height: 5em;
@@ -26,13 +26,28 @@ header img {
 
 main {
     min-height: 65vh;
-    font-family: 'AcariSansNeueRegular'; 
+    font-family: 'AcariSansNeueRegular';
 }
 
 header form {
     float: right;
     margin-top: 2em;
     margin-right: 4em;
+}
+
+iframe {
+    margin: 0 auto;
+    display: block;
+
+    width: 50%;
+    height: auto;
+    aspect-ratio: 16/9;
+}
+@media(max-width: 800px) {
+    iframe {
+        width: 90%;
+    }
+
 }
 
 h2 {
@@ -172,9 +187,10 @@ aside.asideImage {
     flex-direction: column;
 }
 
-@media(max-widh:1152px) {
+@media(max-width:1152px) {
     .card.item {
         max-width: 80%;
+        min-width: 80%;
     }
 }
 
@@ -303,7 +319,7 @@ input {
     border-radius: 1em 0 0 1em;
     width: 80%;
     border: none;
-    
+
 }
 @media(max-width: 1601px) {
     nav form {
